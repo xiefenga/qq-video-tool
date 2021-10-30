@@ -1,0 +1,27 @@
+{
+  "name": "qq-video-tool",
+  "version": "0.0.1",
+  "main": "dist/index.user.js",
+  "author": "xie feng",
+  "license": "MIT",
+  "scripts": {
+    "dev": "TS_NODE_PROJECT=\"webpack.tsconfig.json\" webpack watch --env dev",
+    "build": "TS_NODE_PROJECT=\"webpack.tsconfig.json\" webpack --env prod"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.0.1",
+    "open": "^8.4.0",
+    "pretty-output-webpack-plugin": "^0.0.1",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "userscript-webpack-plugin": "^0.0.6",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
