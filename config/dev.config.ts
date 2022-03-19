@@ -1,5 +1,6 @@
 import { join } from 'path'
 import { Configuration } from 'webpack'
+import metadata from './userscript-metadata'
 import OpenBrowserPlugin from '../plugin/open-browser-plugin'
 import UserscriptWebpackPlugin from 'userscript-webpack-plugin'
 
@@ -14,12 +15,8 @@ const config: Configuration = {
   plugins: [
     new UserscriptWebpackPlugin({
       metadata: {
-        name: 'qq.video.tool@dev',
-        match: 'https://v.qq.com/x/cover/*',
-        version: '0.0.1',
-        namespace: '@xiefeng/qq.video.tool',
+        ...metadata,
         require: ['file://' + join(__dirname, '../dist/main@dev.user.js')],
-        author: 'xiefeng',
       },
     }),
     new OpenBrowserPlugin({

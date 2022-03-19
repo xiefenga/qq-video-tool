@@ -1685,10 +1685,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-userscript-webpack-plugin@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/userscript-webpack-plugin/-/userscript-webpack-plugin-0.0.6.tgz#705bf9220e7d4fae1e9c147d27e76530ada59b6c"
-  integrity sha512-ssUTAGT+IG4lqeWRTkRYxURey+HhNTcb35bh5LpEEPCUP9lztGSvuFrJ+XmP+2FiIVBUgiGy4tjvUDEzxKJxVQ==
+userscript-webpack-plugin@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/userscript-webpack-plugin/-/userscript-webpack-plugin-0.0.8.tgz#f0ef64e564b0c26dcc5f21564a9ca5e93f44456b"
+  integrity sha512-axLqc07ABBvdU5mqLOmtH1Jw2coyibTbaTFEyUJVSMb2JpzJgOVqeoncu5ULk7EYi69MaKfb6A4HKvjr2WwRLA==
   dependencies:
     webpack-sources "^3.2.1"
 
@@ -1731,10 +1731,15 @@ webpack-merge@^5.7.3, webpack-merge@^5.8.0:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
 
-webpack-sources@^3.2.0, webpack-sources@^3.2.1:
+webpack-sources@^3.2.0:
   version "3.2.1"
   resolved "https://registry.nlark.com/webpack-sources/download/webpack-sources-3.2.1.tgz#251a7d9720d75ada1469ca07dbb62f3641a05b6d"
   integrity sha1-JRp9lyDXWtoUacoH27YvNkGgW20=
+
+webpack-sources@^3.2.1:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
+  integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack@^5, webpack@^5.59.1:
   version "5.61.0"
