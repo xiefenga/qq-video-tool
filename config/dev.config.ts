@@ -16,7 +16,7 @@ const config: Configuration = {
     new UserscriptWebpackPlugin({
       metadata: {
         ...metadata,
-        name: metadata + '@dev',
+        name: metadata.name + '@dev',
         require: ['file://' + join(__dirname, '../dist/main@dev.user.js')],
       },
     }),
